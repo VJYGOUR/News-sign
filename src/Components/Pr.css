@@ -1,0 +1,151 @@
+@media only screen and (min-width: 800px) and (max-width: 1400px) {
+  .fl {
+    display: flex;
+    max-width: 60%;
+    min-height: 50% !important;
+    justify-content: center;
+    padding: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 15px;
+  }
+  body {
+    background-color: hsl(235, 18%, 26%);
+  }
+
+  .ty {
+    display: flex;
+    align-items: center;
+  }
+  .scndDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+/*@media (max-h: 600px) {
+  .scndDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}*/
+@media (min-width: 800px) and (max-width: 1400px) {
+  .or {
+    order: -1;
+    flex-basis: 75%;
+  }
+}
+h1 {
+  padding-bottom: 1rem;
+}
+.ig-c {
+  min-height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hbold {
+  font-weight: bold;
+}
+p {
+  font-size: small;
+  font-weight: 500;
+  padding-bottom: 0.4rem;
+  max-width: 50ch;
+}
+.pd {
+  padding: 0.7rem 0.6rem 0.7rem 0.6rem;
+  width: 100%;
+}
+.font {
+  font-size: smaller;
+  font-weight: 500;
+}
+.min-h {
+  min-height: 100vh;
+}
+.min-h40 {
+  min-height: 40vh;
+}
+.min-h60 {
+  min-height: 60vh;
+}
+p img {
+  padding-right: 0.3rem;
+}
+.tt {
+  margin-bottom: 1rem;
+}
+.txt {
+  font-size: 0.8rem;
+}
+@media (max-width: 600px) {
+  .f-size {
+    font-size: 2.5rem;
+  }
+  .forclick {
+    margin-top: 7rem;
+  }
+  .clickp {
+    width: 60ch !important;
+    padding-top: 0.5rem;
+  }
+
+  .click-button {
+    position: absolute;
+    bottom: 1rem;
+  }
+  .min-h40 {
+    min-height: 0;
+  }
+  .min-h60 {
+    min-height: 65vh;
+  }
+}
+.hover-button:hover {
+  background-color: hsl(4, 100%, 67%);
+}
+.hover-button {
+  background-color: hsl(234, 29%, 20%);
+}
+.padd-lr {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.after-click {
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 0.5rem;
+}
+.clickHdn {
+  width: 15ch;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+.click-button {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: hsl(234, 29%, 20%);
+}
+.click-button:hover {
+  background-color: hsl(4, 100%, 67%);
+}
+.clickp {
+  width: 35ch;
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+}
+.clickimg {
+  width: 2.5rem;
+}
+input:invalid {
+  border: 2px solid red;
+}
